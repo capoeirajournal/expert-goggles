@@ -23,9 +23,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "About | #{@base_title}"
   end
 
-  def "should get root" do
-    get FILL_IN
-    assert_response FILL_IN
-  end
+
 
 end
